@@ -9,12 +9,39 @@ body
 	margin: 0px;
 }
 
+header{
+	height: 200px;
+}
+
+li{
+	display: inline;
+}
+
 #wrapper
 {
 	width: 940px;
 	margin: 20px auto 20px auto;
 	border: 2px solid #000000;
 	background-color: #ffffff;
+}
+
+article{
+	text-align: justify;
+}
+
+aside{
+	width: 230px;
+	padding-left: 20px;
+	float: right;
+}
+
+.szelektor{
+	color: #de6581;
+	text-decoration: none;
+}
+
+h1, h2, h3{
+	font-weight: normal;
 }
 
 h1
